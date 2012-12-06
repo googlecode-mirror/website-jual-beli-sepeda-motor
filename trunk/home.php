@@ -2,33 +2,34 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id">
 	<head>
 		
-		<title>Motor.com</title>
+		<title>Dumbe.com</title>
 		
       
 
 
-		<link href="Motor.com/global00.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="Dumbe.com/global00.css" rel="stylesheet" type="text/css" media="all" />
 	
-<link rel="stylesheet" href="Motor.com_files/menu_sty.css" type="text/css" />
-		<script type="text/javascript" src="Motor.com_files/tools000.js"></script>
+<link rel="stylesheet" href="Dumbe.com_files/menu_sty.css" type="text/css" />
+		<script type="text/javascript" src="Dumbe.com_files/tools000.js"></script>
 		<script type="text/javascript">
 			var baseDir = '/';
 			var static_token = '14c7f7db2acbe2593ea73e8f4769bf5f';
 			var token = '3a36c0dd95ff4ad02a1c281b12466dec';
 			var priceDisplayPrecision = 0;
 		</script>
-		<script type="text/javascript" src="Motor.com/jquery-1.js"></script>
-		<script type="text/javascript" src="Motor.com_files/jquery00.js"></script>
+		<script type="text/javascript" src="Dumbe.com/jquery-1.js"></script>
+		<script type="text/javascript" src="Dumbe.com_files/jquery00.js"></script>
         
-  <script type="text/javascript" src="Motor.com_files/global00.htm"></script>
+  <script type="text/javascript" src="Dumbe.com_files/global00.htm"></script>
 
-		<link rel="alternate" type="application/rss+xml" title="Motor.com." href="http://www.Motor.com/modules/feeder/rss.php?id_category=0&amp;orderby=position&amp;orderway=DESC" />
+		<link rel="alternate" type="application/rss+xml" title="Dumbe.com." href="http://www.Dumbe.com/modules/feeder/rss.php?id_category=0&amp;orderby=position&amp;orderway=DESC" />
 	    <style type="text/css">
 <!--
 .style2 {
 	color: #CC9933;
 	font-style: italic;
 }
+.style3 {color: #FF0000}
 -->
         </style>
 </head>
@@ -58,7 +59,7 @@
                     </form>
 			      </table>
 					<!-- Block currencies module -->
-<script type="text/javascript" src="Motor.com_files/blockcur.js"></script>
+<script type="text/javascript" src="Dumbe.com_files/blockcur.js"></script>
 <!-- /Block currencies module -->
 <!-- Block languages module -->
 <div id="languages_block_top"></div>
@@ -73,12 +74,12 @@
 <!-- /Block languages module -->
 <!-- Block permanent links module HEADER -->
 <ul id="header_links"><li id="header_link_bookmark">
-		<script type="text/javascript">writeBookmarkLink('http://www.Motor.com/index.php', 'Motor', 'bookmark');</script>
+		<script type="text/javascript">writeBookmarkLink('http://www.batikdistro.com/index.php', 'BatikDistro.Com', 'bookmark');</script>
 	</li>
 </ul>
 <!-- /Block permanent links module HEADER --><!-- Block search module HEADER -->
 <div id="search_block_top">
-	<form method="get" action="http://www.Motor.com/search.php" id="searchbox">
+	<form method="get" action="http://www.Dumbe.com/search.php" id="searchbox">
 	<p>
 		<label for="search_query"><!-- image on background --></label>
 		<input type="text" id="search_query" name="search_query" value="" />
@@ -92,9 +93,9 @@
 				<div class="menu bubplastic horizontal red" style="position:relative;float:left; margin-bottom:10px">
 	<ul>
 		<li class="highlight"><span class="menu_r"><a href="home.php" target="_self"><span class="menu_ar">Home</span></a></span></li>
-			<li><span class="menu_r"><a href="Motorbekas.php" target="_self">Motor Bekas </a></span></li>
-        	<li><span class="menu_r"><a href="Motorbaru.php" target="_self">Motor Baru </a></span></li>
-            <li><span class="menu_r"><a href="Saran.php" target="_self">Saran</a></span></li>
+			<li><span class="menu_r"><a href="sejarah_batik.html" target="_self">Motor Bekas </a></span></li>
+        	<li><span class="menu_r"><a href="pengiriman_pembayaran.html" target="_self">Motor Baru </a></span></li>
+            <li><span class="menu_r"><a href="P_coba.php" target="_self">Saran</a></span></li>
 			 <li><span class="menu_r"><a href="daftar.php" target="_self"><span class="menu_ar">Daftar</span></a></span></li>
 	</ul>
 </div>
@@ -105,17 +106,17 @@
 <div id="center_column">
 	<!-- Module Editorial -->
 <div id="editorial_block_center" class="editorial_block">
-	<a href="http://www.Motor.com/" title="Motor dot com">			</a>	 
-	<h2 class="error">Selamat Datang di Motor.com</h2>		
+	<a href="http://www.Dumbe.com/" title="Motor dot com">			</a>	 
+	<h2 class="style3">Selamat Datang di Dumbe.Com</h2>		
 	<div><p style="text-align: center;"><img src="gambar/v3.jpg" alt="" width="253" height="158" /></p>
 <p style="text-align: center;"><span style="color: #ff0000;"><span style="font-size: medium;"><strong>Ayo Gabung !!!! </strong></span></span><a href="about_us.html"><span style="color: #ff0000;"><span style="font-size: medium;"><strong><span class="style2"><br />
 </span></strong></span></span></a></p>
 <p style="text-align: center;">&nbsp;</p>
-<p style="text-align: left;"><strong>Selamat Datang di toko online Motor.Com</strong></p>
+<p style="text-align: left;"><strong>Selamat Datang di toko online Dumbe.com</strong></p>
 <p align="left">Kami akan memberikan pelayanan terbaik kepada Anda.  Dengan  Motor terbaru dan Bekas dengan kualitas tinggi dengan harga  bersaing.</p>
 <p><strong>Keuntungan</strong> belanja di Motor antara lain :</p>
 <ul class="muka">
-<li><strong>Murah</strong> : dapatkan  produk tertentu dari supplier <a href="http://www.Motors\.com/partners.php" target="_blank">mitra</a> kami. </li>
+<li><strong>Murah</strong> : dapatkan  produk tertentu dari supplier <a href="http://www.batikdistro.com/partners.php" target="_blank">mitra</a> kami. </li>
 <li><strong>Mudah</strong> :&nbsp; Anda tinggal klik dengan mouse, barang akan langsung datang ke rumah.</li>
 <li><strong>Berkualitas</strong> : Kami selalu memberikan barang dengan kualitas yang tinggi dan dari produsen-produsen terpercaya.</li>
 <li><strong>Layanan konsumen</strong> via email, telp, YM .</li>
@@ -129,9 +130,9 @@
 
 <!-- Footer -->
 			<div id="footer"><!-- MODULE Block various links -->
-	<td class="footer" align="center" height="25"><a href="http://www.Motor.com/" title="Motor Online" class="footerlink"></a>
+	<td class="footer" align="center" height="25"><a href="http://www.DistroBatik.com/" title="Batik Online" class="footerlink"></a>
     <marquee behavior="scroll">
-    <h1>www.Motor.com</h1> 
+    <h1>www.Dumbe.com</h1> 
     </marquee></td>
 
 
