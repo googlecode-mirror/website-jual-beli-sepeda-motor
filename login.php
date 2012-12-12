@@ -35,7 +35,3 @@ document.location='berhasil.php'
 ?>
 <script language="JavaScript">alert('Username atau password Andasalah'); 
 document.location='home.php'</script>
-<?
-}
-}
-?>
