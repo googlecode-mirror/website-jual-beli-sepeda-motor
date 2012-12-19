@@ -35,6 +35,7 @@
 	font-weight: bold;
 	color: #000000;
 }
+.style6 {color: #FFFFFF}
 -->
         </style>
 </head>
@@ -46,11 +47,22 @@
 			<div>
 				<h1 id="logo">&nbsp;</h1>
 				<div id="header">
-				  <!-- Block currencies module -->
-<script type="text/javascript" src="Dumbe.com_files/blockcur.js"></script>
-<!-- /Block currencies module -->
-<!-- Block languages module -->
-<div id="languages_block_top"></div>
+				  <p>&nbsp;</p>
+				  <p>&nbsp;</p>
+				  <p>	
+				  <?
+echo  $_SESSION['username'] 
+?>
+
+&nbsp;<a
+href="logout.php"><strong>LOGOUT</strong></a></font></td></p>
+				  <p>
+				    <!-- Block currencies module -->
+                    <script type="text/javascript" src="Dumbe.com_files/blockcur.js"></script>
+                    <!-- /Block currencies module -->
+                    <!-- Block languages module -->
+                  </p>
+				  <div id="languages_block_top"></div>
 <script type="text/javascript">
 	$('ul#first-languages li:not(.selected_language)').css('opacity', 0.3);
 	$('ul#first-languages li:not(.selected_language)').hover(function(){
@@ -67,7 +79,7 @@
 </ul>
 <!-- /Block permanent links module HEADER --><!-- Block search module HEADER -->
 <div id="search_block_top">
-	<form method="get" action="http://www.Dumbe.com/search.php" id="searchbox">
+	<form method="get" action="search.php" id="searchbox">
 	<p>
 		<label for="search_query"><!-- image on background --></label>
 		<input type="text" id="search_query" name="search_query" value="" />
@@ -79,13 +91,11 @@
 <!-- /Block user information module HEADER -->
               </div>
 				<div class="menu bubplastic horizontal red" style="position:relative;float:left; margin-bottom:10px">
-	<ul>
-		<li class="highlight"><span class="menu_r"><a href="home.php" target="_self"><span class="menu_ar">Home</span></a></span></li>
-			<li><span class="menu_r"><a href="sejarah_batik.html" target="_self">Motor Bekas </a></span></li>
-        	<li><span class="menu_r"><a href="pengiriman_pembayaran.html" target="_self">Motor Baru </a></span></li>
-            <li><span class="menu_r"><a href="P_coba.php" target="_self">Saran</a></span></li>
-			 </ul>
-</div>
+	              <p>&nbsp;</p>
+	              <p>&nbsp;</p>
+	              <p>&nbsp;</p>
+	              <p class="style6">=======&gt;&gt;</p>
+				</div>
 			</div>
 
 			<div align="center">
@@ -139,7 +149,7 @@
 	<h2 class="style3">&nbsp;</h2>
 	<div><p style="text-align: center;">&nbsp;</p>
       <table width="70%" border="1" align="center" cellpadding="0" cellspacing="3" bordercolor="#CCCCCC">
-        <form action="load.php" method="post" enctype="multipart/form-data">
+        <form action="load.php" method="POST" enctype="multipart/form-data">
           <tr>
             <td width="27%"><strong><font color="#000000">Judul Iklan </font></strong></td>
             <td width="73%"><div align="left">
@@ -148,10 +158,11 @@
           </tr>
 		  <tr>
             <td><span class="style4">Kategori</span></td>
-            <td><?
+            <td>
+			<?
 		$kon = mysql_connect("localhost","root","") or die ("Salah Bozzz");
 		mysql_select_db("dbtgs",$kon);
-		$query = "SELECT * FROM motor";
+		$query = "SELECT * FROM kategori";
 		$result = mysql_query($query);
 		//$conn = mysql_close();
 		?>
@@ -164,9 +175,7 @@
 		$a=($a==1) ? 0 : 1;
 		$col=($a==1) ? "#CCCCCC" : "#999999";
 	?>
-                    <option value="<?=$rows[it]?>" selected = "selected" >
-                    <?=$rows[motor]?>
-                    </option>
+                    <option value="<?=$rows[it]?>" selected = "selected" > <?=$rows[kategori]?> </option>
                     <? }?>
                   </select>
                   </div></td>
@@ -187,8 +196,8 @@
           </tr>
          <tr>
             <td><font color="#000000"><strong>Deskripsi</strong></font></td>
-            <td><p>&nbsp;</p></td>
-          </tr>
+            <td><input name="DK12" type="text" id="DK12" value="" size="50" /></td>
+         </tr>
           <tr>
             <td><strong><font color="#000000">Upload foto </font></strong></td>
             <td><input name="file" type="file" id="file" /></td>
